@@ -1,0 +1,11 @@
+{
+  "name": "ak-test-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Knight <austinknight89@gmail.com> (http://austinknight.net)",
+  "license": "ISC"
+}
