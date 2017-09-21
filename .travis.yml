@@ -11,6 +11,7 @@ before_script:
 script:
   - npm run test
 after_success:
+  - npm i -g semantic-release
   - cd lib
   - npm run semantic-release
 branches:
