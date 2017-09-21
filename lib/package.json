@@ -1,0 +1,22 @@
+{
+  "name": "ak-test-package",
+  "version": "0.0.0-semantically-released",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austinknight/ak-test-package.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "author": "Austin Knight <austinknight89@gmail.com> (http://austinknight.net)",
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
