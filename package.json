@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:austinknight/ak-test-package.git"
+    "url": "https://github.com/austinknight/ak-test-package.git"
   },
   "main": "index.js",
   "scripts": {
