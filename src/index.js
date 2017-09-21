@@ -1,3 +1,3 @@
 module.exports = {
-  all: ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+  all: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 };
