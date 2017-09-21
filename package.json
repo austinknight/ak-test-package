@@ -1,6 +1,6 @@
 {
   "name": "ak-test-package",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-semantically-released",
   "description": "",
   "repository": {
     "type": "git",
@@ -8,8 +8,20 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Austin Knight <austinknight89@gmail.com> (http://austinknight.net)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "semantic-release": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
 }
